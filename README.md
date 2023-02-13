@@ -5,12 +5,23 @@ Source codes for AACL 2022 paper "Systematic Evaluation of Predictive Fairness"
 If you use the code, please cite the following paper:
 
 ```
-@article{han2022systematic,
-      title={Systematic Evaluation of Predictive Fairness}, 
-      author={Xudong Han and Aili Shen and Trevor Cohn and Timothy Baldwin and Lea Frermann},
-      year={2022},
-      journal={arXiv preprint arXiv:2210.08758},
+@inproceedings{han-etal-2022-systematic,
+    title = "Systematic Evaluation of Predictive Fairness",
+    author = "Han, Xudong  and
+      Shen, Aili  and
+      Cohn, Trevor  and
+      Baldwin, Timothy  and
+      Frermann, Lea",
+    booktitle = "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = nov,
+    year = "2022",
+    address = "Online only",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.aacl-main.6",
+    pages = "68--81",
+    abstract = "Mitigating bias in training on biased datasets is an important open problem. Several techniques have been proposed, however the typical evaluation regime is very limited, considering very narrow data conditions. For instance, the effect of target class imbalance and stereotyping is under-studied. To address this gap, we examine the performance of various debiasing methods across multiple tasks, spanning binary classification (Twitter sentiment), multi-class classification (profession prediction), and regression (valence prediction). Through extensive experimentation, we find that data conditions have a strong influence on relative model performance, and that general conclusions cannot be drawn about method efficacy when evaluating only on standard datasets, as is current practice in fairness research.",
 }
+
 ```
 
 # Quick Links
